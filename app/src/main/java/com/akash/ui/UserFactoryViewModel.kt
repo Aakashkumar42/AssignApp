@@ -1,4 +1,4 @@
-package com.akash.myassignment
+package com.akash.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

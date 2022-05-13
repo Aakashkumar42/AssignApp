@@ -25,40 +25,39 @@
     android:textSize="20sp"
     android:fontFamily="sans-serif-medium"
     android:textColor="@color/blue_text_color"
-    android:text="User Name"
-    android:id="@+id/TVUserName"
+    android:text="Title"
+    android:id="@+id/TVtitle"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"/>
       <TextView
-          android:layout_below="@id/TVUserName"
+          android:layout_below="@id/TVtitle"
           android:textSize="15sp"
           android:fontFamily="sans-serif-medium"
           android:textColor="@color/black"
-          android:text="Subject"
-          android:id="@+id/TVSubject"
+          android:text="Description"
+          android:id="@+id/TVdesc"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
       <TextView
           android:layout_marginLeft="5dp"
-          android:layout_toRightOf="@id/TVSubject"
-          android:layout_below="@id/TVUserName"
+          android:layout_below="@id/TVdesc"
           android:textSize="15sp"
           android:fontFamily="sans-serif-medium"
           android:textColor="@color/black"
-          android:text="Subject"
-          android:id="@+id/TVCollege"
+          android:text="published"
+          android:id="@+id/TVpublished"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"/>
-        <Button
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"
-            android:background="@drawable/btn_shape"
-            android:layout_below="@id/TVSubject"
-            android:id="@+id/btn_ViewMore"
-            android:textAllCaps="false"
-            android:text="View More"
-            android:textSize="10sp"
-            android:layout_width="wrap_content"
-            android:layout_height="33dp"/>
-</RelativeLayout>
+      <TextView
+          android:layout_marginLeft="5dp"
+          android:layout_below="@id/TVpublished"
+          android:textSize="15sp"
+          android:fontFamily="sans-serif-medium"
+          android:textColor="@color/black"
+          android:text="source"
+          android:id="@+id/TVsource"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"/>
+
+  </RelativeLayout>
 </androidx.cardview.widget.CardView>

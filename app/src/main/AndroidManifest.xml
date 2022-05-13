@@ -11,9 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyAssignment">
-        <activity android:name=".DetailsActivity"></activity>
+        <activity android:name="com.akash.ui.DetailsActivity"></activity>
+        <activity android:name=".DetailsActivity" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.akash.ui.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
